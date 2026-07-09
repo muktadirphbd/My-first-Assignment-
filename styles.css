@@ -128,3 +128,43 @@ nav button:hover{
 .hero-btn:hover{
     background-color: #1d4ed8;
 }
+ /* First page done */
+
+ .speakers{
+    padding: 80px;
+}
+
+.speakers h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.speaker-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.speaker-info {
+    padding: 25px;
+    
+}
+.category {
+color: #1d4ed8;
+}
+.name{
+    color: #0D1B2A;
+}
+.paragraph{
+    color: #575757;
+}
+.speaker-card{
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.speaker-card img{
+    width: 100%;
+    display: block;
+}
