@@ -381,7 +381,7 @@ color: #1d4ed8;
 
 .footer{
     padding: 30px 80px;
-    background: #ffffff;
+    background:#0D1B2A;
 }
 
 .footer hr{
@@ -421,13 +421,27 @@ color: #1d4ed8;
 }
 
 .footer-right p{
-    font-size: 14px;
+    font-size: 10px;
     color: #6B7280;
 }
 .footer-container{
+    color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 0px;
+    gap: 500px;
 }
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px; 
+    margin-top: 20px;}
+
+
+    .footer-links a {
+    text-decoration: none;
+    color: #8a9099;
+    font-size: 14px;}
+    
 
