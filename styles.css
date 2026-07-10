@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: "Inter", sans-serif;
+}
 
 /* header */
 header{
@@ -200,7 +203,7 @@ color: #1d4ed8;
 }
 .featured{
     background:#0d1b2a;
-    color:white;
+    color:#FFFFFF;
     }
 
 .price-card button{
@@ -218,8 +221,9 @@ color: #1d4ed8;
 .price-card:not(.featured) button{
     background:white;
     color:#2563eb;
-    border:1px solid #2563eb;
+    border:1px solid #0D1B2A;
 }
+
 .price-card ul{
     padding-left:20px;
     margin:20px 0;
@@ -232,11 +236,9 @@ color: #1d4ed8;
     color:#93C5FD;
 }
 
-
 .plan{
     color:#888888;   
-    font-weight: 600;
-   
+    font-weight: 600;  
 }
 
 .featured .plan{
@@ -245,3 +247,187 @@ color: #1d4ed8;
 .person{
     color: #888888;
 }
+.price{
+     font-size: 44px;
+    font-weight: 800;
+    margin: 15px 0 10px;
+}
+.team-btn{
+    color: #0D1B2A;
+}
+.featured .plan{
+    color: #93C5FD;
+}
+.price-card button{
+    font-size:14px;
+}
+
+
+/* third page End */
+/* ==========================
+   Contact Section
+========================== */
+
+.contact{
+    padding: 80px;
+    background: #F8FAFC;
+}
+
+.contact-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    align-items: start;
+}
+
+/* ==========================
+   Left Side
+========================== */
+
+.contact-info h2{
+    font-size: 42px;
+    color: #0D1B2A;
+    margin-bottom: 20px;
+}
+
+.contact-info p{
+    color: #555555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.contact-details{
+    margin-top: 30px;
+}
+
+.contact-details p{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* ==========================
+   Social Links
+========================== */
+
+.social-links{
+    margin-top: 30px;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: #2563EB;
+    margin-right: 20px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.social-links a:hover{
+    color: #0D1B2A;
+}
+
+/* ==========================
+   Right Side
+========================== */
+
+.contact-form h2{
+    font-size: 42px;
+    color: #0D1B2A;
+    margin-bottom: 20px;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+.contact-form textarea{
+    resize: none;
+}
+
+/* ==========================
+   Button
+========================== */
+
+.contact-form button{
+    width: 180px;
+    padding: 14px;
+    background: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover{
+    background: #0D1B2A;
+}
+
+
+
+.footer{
+    padding: 30px 80px;
+    background: #ffffff;
+}
+
+.footer hr{
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    margin-bottom: 30px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img{
+    width: 170px;
+}
+
+.footer-right{
+    text-align: right;
+}
+
+.footer-social{
+    margin-bottom: 12px;
+}
+
+.footer-social a{
+    color: #0D1B2A;
+    text-decoration: none;
+    margin-left: 16px;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.footer-social a:hover{
+    color: #2563EB;
+}
+
+.footer-right p{
+    font-size: 14px;
+    color: #6B7280;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0px;
+}
+
