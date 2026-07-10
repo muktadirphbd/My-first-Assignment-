@@ -1,0 +1,1 @@
+I asked Chatgpt that I am creating an assignment about development conference, Please provide me a section that will in the upper section of footer, It will be valid.
