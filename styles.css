@@ -201,6 +201,9 @@ color: #1d4ed8;
     padding:30px;
     text-align:left;
 }
+.horizontal line{
+    color: #FFFFFF;
+}
 .featured{
     background:#0d1b2a;
     color:#FFFFFF;
@@ -262,17 +265,16 @@ color: #1d4ed8;
     font-size:14px;
 }
 
-
 /* third page End */
-/* ==========================
-   Contact Section
-========================== */
+
+
+
+/* Fourth page start */
 
 .contact{
     padding: 80px;
     background: #F8FAFC;
 }
-
 .contact-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -280,22 +282,16 @@ color: #1d4ed8;
     align-items: start;
 }
 
-/* ==========================
-   Left Side
-========================== */
-
 .contact-info h2{
     font-size: 42px;
     color: #0D1B2A;
     margin-bottom: 20px;
 }
-
 .contact-info p{
     color: #555555;
     line-height: 1.8;
     margin-bottom: 20px;
 }
-
 .contact-details{
     margin-top: 30px;
 }
@@ -303,14 +299,6 @@ color: #1d4ed8;
 .contact-details p{
     margin-bottom: 15px;
     font-size: 16px;
-}
-
-/* ==========================
-   Social Links
-========================== */
-
-.social-links{
-    margin-top: 30px;
 }
 
 .social-links a{
@@ -325,9 +313,7 @@ color: #1d4ed8;
     color: #0D1B2A;
 }
 
-/* ==========================
-   Right Side
-========================== */
+
 
 .contact-form h2{
     font-size: 42px;
@@ -356,9 +342,6 @@ color: #1d4ed8;
     resize: none;
 }
 
-/* ==========================
-   Button
-========================== */
 
 .contact-form button{
     width: 180px;
@@ -377,7 +360,7 @@ color: #1d4ed8;
     background: #0D1B2A;
 }
 
-
+/* footer section */
 
 .footer{
     padding: 30px 80px;
@@ -399,7 +382,9 @@ color: #1d4ed8;
 .footer-logo img{
     width: 170px;
 }
-
+.social-links{
+    margin-top: 30px;
+}
 .footer-right{
     text-align: right;
 }
@@ -429,7 +414,7 @@ color: #1d4ed8;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 500px;
+    gap: 100px;
 }
 .footer-links {
     display: flex;
@@ -438,10 +423,19 @@ color: #1d4ed8;
     gap: 25px; 
     margin-top: 20px;}
 
-
-    .footer-links a {
+ .footer-links a {
     text-decoration: none;
     color: #8a9099;
     font-size: 14px;}
+
+    .footer-top{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        text-decoration: none;
+        color: #0D1B2A;
+    }
+    
+    
     
 
